@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --theme: #4c4683;
+    --black: #000;
+    --white: #fff;
+    --shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+
+}
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input{
+    font-family: "Montserrat", sans-serif;
+}
+.custom-input {
+    border: 0px;
+    border-bottom: 1px solid #000;
+    padding: 0.5rem 0rem;
+    width: 100%;
+    border-radius: 0;
+  }
+  
+  .custom-input {
+    margin-top: -1rem !important;
+  }
+  .custom-input::placeholder {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .custom-input:focus {
+        outline: none;
+        opacity: 1;
+        transition: all 0.3s;
+      }
+
+      .input-flex {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        width: 300px; /* Adjust width as necessary */
+        box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        background-color: white;
+      }
+      
+      .search-icon {
+        margin-right: 0.5rem;
+      }
+      
+      .input-field {
+        width: 100%;
+        padding: 0.5rem;
+        border: 0;
+      }
+      
+      .input-field:focus {
+        outline: none;
+      }
+      
+      .select-input {
+        width: 150px; /* Adjust width as necessary */
+        display: flex;
+        align-items: center;
+        box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+        border-radius: 0.5rem;
+        padding: 0.2rem 0.5rem;
+        background-color: white;
+      }
+      
+      .select-input > div {
+        border: 0 !important;
+      }
+      
+      .input-radio {
+        display: flex;
+        align-items: center;
+        box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+        border-radius: 0.5rem;
+        padding: 0.2rem 0.5rem;
+        background-color: white;
+      }
+      

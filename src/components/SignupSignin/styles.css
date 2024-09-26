@@ -1,0 +1,43 @@
+.signup-wrapper {
+    width: 70%;
+    max-width: 450px;
+    height: auto;
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto; /* Center horizontally and add margin from top and bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff;
+}
+
+.title {
+    font-weight: 600; /* Make the text bold */
+    font-size: 1.5rem; /* Increase the font size */
+    text-align: center;
+    letter-spacing: 1px; /* Add letter spacing */
+    color: #333; /* Change the color to a darker shade */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Add a subtle text shadow */
+}
+
+.title span {
+    color: var(--theme); /* Ensure the span color remains as the theme color */
+    font-weight: 700; /* Make the span text bolder */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the wrapper take the full viewport height */
+    padding: 2rem 0; /* Add some padding on top and bottom */
+}
+.p-login{
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin: 0;
+
+}

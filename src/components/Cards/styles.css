@@ -1,0 +1,51 @@
+:root {
+    --theme: #4c4683;
+  }
+  
+  .my-card {
+    box-shadow: var(--shadow);
+    margin: 2rem;
+    border-radius: 0.5rem;
+    min-width: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the button horizontally */
+  }
+  
+  .ant-card-head-title {
+    margin: 0rem !important;
+    font-weight: 600;
+  }
+  
+  .my-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align cards at the top */
+    width: 90%;
+    margin: 2rem auto;
+  }
+  
+  .my-card p {
+    margin: 0;
+    margin-bottom: 1rem; /* Add some space between the text and the button */
+  }
+  
+  .custom-button {
+    background-color: var(--theme);
+    border: none;
+    color: white;
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(82, 175, 45);
+    border: none;
+    color: black;
+  }
+  
+  .custom-button:focus {
+    background-color: var(--theme);
+    border: none;
+    color: white;
+  }
+  

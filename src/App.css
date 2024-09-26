@@ -1,0 +1,13 @@
+body {
+    background-color: #cfe7eb; /* Choose a background color for the entire page */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a default font for consistency */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}

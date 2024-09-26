@@ -1,0 +1,32 @@
+.btn {
+    color: var(--theme);
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 1rem 0rem;
+    padding: 0.5rem !important;
+    background-color: #fff;
+    border: 1px solid var(--theme);
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: auto !important;
+}
+
+.btn:hover {
+    background-color: var(--theme);
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.btn-blue {
+    background-color: var(--theme);
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #fff !important;
+    color: var(--theme) !important;
+    transition: all 0.3s;
+}
