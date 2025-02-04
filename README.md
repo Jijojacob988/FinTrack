@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Personal Finance Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **Personal Finance Tracker** built using **React, Firebase, Ant Design, and React Toastify**. The project helps users track their income, expenses, and overall financial statistics with an interactive dashboard.
 
-## Available Scripts
+## 🚀 Features
+- **Built with React** for a seamless user experience
+- **Firebase Authentication** (Sign up with Email & Google)
+- **Firestore Database** to store user transactions
+- **React Toastify** for alerts and notifications
+- **Ant Design** for UI components and charts
+- **CSV Export & Import** to manage financial data
+- **Sorting & Filtering** for transaction history
+- **Responsive Design** with modern UI
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
+- **React** - Frontend framework
+- **Firebase** - Backend authentication and database
+- **Ant Design** - UI component library
+- **React Toastify** - Notifications and alerts
+- **React Router** - Navigation between pages
 
-### `npm start`
+## 📂 Project Structure
+```
+├── src
+│   ├── components
+│   │   ├── Header.js          # Navigation bar
+│   │   ├── InputField.js      # Custom input field component
+│   │   ├── Button.js          # Reusable button component
+│   │   ├── TransactionsTable.js # Table to display transactions
+│   ├── pages
+│   │   ├── SignUp.js          # Signup page
+│   │   ├── Dashboard.js       # Main dashboard page
+│   ├── firebase.js            # Firebase configuration
+│   ├── App.js                 # Main application file
+│   ├── index.js               # Entry point
+│   ├── styles.css             # Global styles
+├── public
+│   ├── assets                 # Images and icons
+│   ├── index.html             # HTML file
+├── package.json               # Dependencies and scripts
+├── README.md
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎨 UI & Functionalities
+- **Sign Up / Login:** Users can sign up using Email & Password or Google Authentication.
+- **Dashboard:** Displays Total Balance, Income, and Expenses.
+- **Financial Graphs:** Line graph for financial trends and pie chart for expense breakdown.
+- **Transactions Table:** Shows all transactions with sorting, filtering, and CSV import/export.
+- **Expense Tracking:** Add expenses and categorize them into predefined or custom tags.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🏗️ Installation & Setup
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/jijojacob988/personal-finance-tracker.git
+cd personal-finance-tracker
+```
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+### 3️⃣ Configure Firebase
+1. Create a Firebase project at [Firebase Console](https://firebase.google.com/).
+2. Enable **Authentication** (Email/Password & Google Sign-in).
+3. Enable **Firestore Database** and set up security rules.
+4. Get Firebase credentials and update `firebase.js`.
 
-### `npm test`
+### 4️⃣ Run Development Server
+```sh
+npm run dev
+```
+Now, open **http://localhost:3000** in your browser to see the project live.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌐 Deployment
+The project can be deployed using **Netlify** or **Vercel**:
+1. Push your project to GitHub.
+2. Go to [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/).
+3. Connect your repository and deploy the project.
 
-### `npm run build`
+## 🤝 Contributing
+Pull requests are welcome! If you have any suggestions, feel free to open an issue or contribute to improve the project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📜 License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by **Jijo Jacob**
